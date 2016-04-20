@@ -1,0 +1,5 @@
+typings/
+tasks/**/*.js 
+tasks/**/*.js.map 
+node_modules
+tmp

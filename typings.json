@@ -1,0 +1,12 @@
+{
+  "ambientDependencies": {
+    "async": "registry:dt/async#1.4.2+20160316155526",
+    "form-data": "registry:dt/form-data#0.0.0+20160316155526",
+    "gruntjs": "registry:dt/gruntjs#0.4.0+20160316171810",
+    "lodash": "registry:dt/lodash#3.10.0+20160330154726",
+    "mustache": "registry:dt/mustache#0.8.2+20160316155526",
+    "node": "registry:dt/node#4.0.0+20160412142033",
+    "q": "registry:dt/q#0.0.0+20160323171452",
+    "request": "registry:dt/request#0.0.0+20160316155526"
+  }
+}
