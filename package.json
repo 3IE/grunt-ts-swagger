@@ -11,7 +11,7 @@
     }
   ],
   "keywords": [
-    "gruntplugin"
+    "gruntplugin, grunt-swagger-ts, swagger, typescript, api, documentation"
   ],
   "main": "Gruntfile.js",
   "engines": {
