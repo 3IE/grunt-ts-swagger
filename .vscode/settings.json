@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/tasks/*.js":true,
+        "**/tasks/*.js.map":true,
+        "**/tasks/Generators/*.js":true,
+        "**/tasks/Generators/*.js.map":true,
+        "**/tasks/Generators/Custom/**/*.js":true,
+        "**/tasks/Generators/Custom/**/*.js.map":true
+    }
+}

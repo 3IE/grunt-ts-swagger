@@ -1,0 +1,50 @@
+{
+  "name": "grunt-swagger-ts",
+  "version": "0.0.1",
+  "description": "Generate client side code out of a swagger api documentation",
+  "homepage": "https://github.com/3IE/grunt-ts-swagger",
+  "repository": "https://github.com/3IE/grunt-ts-swagger.git",
+  "contributors": [
+    {
+      "name": "Arnaud Lemettre",
+      "email": "arnaud.lemettre@gmail.com"
+    }
+  ],
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "form-data": "^1.0.0-rc4",
+    "jshint": "~2.5.1",
+    "lodash": "^4.11.1",
+    "mustache": "~0.8.2",
+    "q": "^1.4.1",
+    "request": "^2.71.0",
+    "swagger-js-codegen": "^1.3.3",
+    "sync-request": "^3.0.0",
+    "typescript-collections": "^1.1.2",
+    "typescript-formatter": "^0.1.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt-karma": "^0.9.0",
+    "grunt-lineending": "^0.2.4",
+    "grunt-ts": "~5.4.0",
+    "jasmine-core": "^2.1.3",
+    "jshint-stylish": "~0.1.5",
+    "karma": "^0.12.28",
+    "karma-jasmine": "^0.3.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "load-grunt-tasks": "~0.3.0",
+    "typescript": "~1.8.2"
+  }
+}
