@@ -45,6 +45,6 @@
     "editorconfig": "~0.13.2"
   },
   "scripts": {
-    "postinstall": "typings install"
+    "postinstall": "typings install && grunt"
   }
 }
