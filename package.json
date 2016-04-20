@@ -30,6 +30,9 @@
     "sync-request": "^3.0.0",
     "typescript-collections": "^1.1.2",
     "typescript-formatter": "^0.1.4",
+    "editorconfig": "~0.13.2"
+  },
+  "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-jshint": "~0.8.0",
@@ -39,11 +42,9 @@
     "jshint-stylish": "~0.1.5",
     "load-grunt-tasks": "~0.3.0",
     "typescript": "~1.8.2",
-    "typings": "~0.8.1",
-    "editorconfig": "~0.13.2"
+    "typings": "~0.8.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "postinstall": "typings install && grunt"
+    "prepublish": "typings install && grunt"
   }
 }
