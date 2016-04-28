@@ -9,20 +9,10 @@
 
 module.exports = function (grunt) {
     // load all npm grunt tasks
-    require('load-grunt-tasks')(grunt);
-
+    require('jit-grunt')(grunt, {
+	});
     // Project configuration.
     grunt.initConfig({
-        jshint: {
-            all: [
-                'Gruntfile.js',
-                'tasks/*.js'
-            ],
-            options: {
-                jshintrc: '.jshintrc',
-                reporter: require('jshint-stylish')
-            }
-        },
 
         // Before generating any new files, remove any previously-created files.
         clean: {
@@ -71,8 +61,8 @@ module.exports = function (grunt) {
                     }],
                     dest: 'tmp'
                 }
-            }
-            , custom: {
+            },
+            custom: {
                 options: {
                     type: 'CustomGenerator',
                     apis: [{

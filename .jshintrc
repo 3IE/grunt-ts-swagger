@@ -1,0 +1,15 @@
+{
+	"globalstrict": true,
+	"camelcase": true,
+	"latedef": true,
+	"newcap": true,
+	"nonew": true,
+	"quotmark": "single",
+	"maxlen": 220,
+	
+	"predef": [
+		"require",
+		"module",
+		"process"
+	]
+}
