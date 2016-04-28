@@ -24,7 +24,7 @@
     "lodash": "~4.11.1",
     "mustache": "~2.2.1",
     "q": "~1.4.1",
-    "request": "~2.71.0",
+    "request": "^2.71.0",
     "swagger-js-codegen": "~1.4.2",
     "sync-request": "^3.0.0",
     "typescript-collections": "^1.1.2",
