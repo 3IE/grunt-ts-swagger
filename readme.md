@@ -1,5 +1,12 @@
 # grunt-swagger-ts
 
+Build : 
+[![Build Status](https://travis-ci.org/3IE/grunt-ts-swagger.svg?branch=develop)](https://travis-ci.org/3IE/grunt-ts-swagger)
+
+Dependecies : 
+[![DevDependencies Status](https://david-dm.org/3IE/grunt-ts-swagger/develop/dev-status.svg)](https://david-dm.org/3IE/grunt-ts-swagger/develop)
+
+
 > This plugin generates typescript files from a swagger definition file. This plugin can generates your code in two ways. 
 * The first one is the official way from [swagger-js-codegen](https://github.com/wcandillon/swagger-js-codegen). 	
 Unfortunately, it doesn't provide a grunt task to generate typescript code, only the javascript generator is available here [grunt-swagger-js-codegen](https://github.com/wcandillon/grunt-swagger-js-codegen)
