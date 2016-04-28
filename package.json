@@ -47,6 +47,7 @@
     "grunt-lineending": "^0.2.4"    
   },
   "scripts": {
-    "prepublish": "typings install && grunt"
+    "prepublish": "typings install && grunt",
+    "test": "grunt OfficialTest && grunt CustomTest"
   }
 }
