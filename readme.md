@@ -4,7 +4,7 @@ Build :
 [![Build Status](https://travis-ci.org/3IE/grunt-ts-swagger.svg?branch=develop)](https://travis-ci.org/3IE/grunt-ts-swagger)
 
 Dependecies : 
-[![DevDependencies Status](https://david-dm.org/3IE/grunt-ts-swagger/develop/dev-status.svg)](https://david-dm.org/3IE/grunt-ts-swagger/develop)
+[![DevDependencies Status](https://david-dm.org/3IE/grunt-ts-swagger/develop.svg)](https://david-dm.org/3IE/grunt-ts-swagger/develop)
 
 
 > This plugin generates typescript files from a swagger definition file. This plugin can generates your code in two ways. 
