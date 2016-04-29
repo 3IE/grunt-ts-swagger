@@ -1,3 +1,4 @@
 namespace {{{namespaceName}}} {
+	'use strict';
 {{{content}}}
 }
