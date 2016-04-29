@@ -19,19 +19,6 @@ module.exports = function (grunt) {
             tests: ['tmp']
         },
 
-        //use unix style lineendings in expected files as bracktes creates windows line endings but our plugin creates unix style ones.
-        lineending: { // Task
-            dist: { // Target
-                options: { // Target options
-                    eol: 'crlf',
-                    overwrite: true
-                },
-                files: { // Files to process
-                    '': ['test/expected/*']
-                }
-            }
-        },
-
         ts: {
             default: {
                 src: ['tasks/**/*.ts'],

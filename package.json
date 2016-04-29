@@ -43,8 +43,7 @@
     "jshint": "~2.9.2",
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-jshint": "1.0.0",
-    "grunt-contrib-nodeunit": "1.0.0",
-    "grunt-lineending": "^0.2.4"    
+    "grunt-contrib-nodeunit": "1.0.0"
   },
   "scripts": {
     "prepublish": "typings install && grunt",
