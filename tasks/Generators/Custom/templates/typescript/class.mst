@@ -1,11 +1,11 @@
-    /**
-     * {{comment}}
-     */
-    export class {{{className}}} {  
-        {{#properties}}   
-            /**
-             * {{{commentProp}}}
-             */
-            public  {{{name}}}: {{{type}}};
-        {{/properties}}
-    }
+	/**
+	 * {{comment}}
+	 */
+	export class {{{className}}} {
+		{{#properties}}
+		/**
+		 * {{{commentProp}}}
+		 */
+		public {{{name}}}: {{{type}}};
+		{{/properties}}
+	}
