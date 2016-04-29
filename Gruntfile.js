@@ -9,37 +9,14 @@
 
 module.exports = function (grunt) {
     // load all npm grunt tasks
-    require('load-grunt-tasks')(grunt);
-
+    require('jit-grunt')(grunt, {
+	});
     // Project configuration.
     grunt.initConfig({
-        jshint: {
-            all: [
-                'Gruntfile.js',
-                'tasks/*.js'
-            ],
-            options: {
-                jshintrc: '.jshintrc',
-                reporter: require('jshint-stylish')
-            }
-        },
 
         // Before generating any new files, remove any previously-created files.
         clean: {
             tests: ['tmp']
-        },
-
-        //use unix style lineendings in expected files as bracktes creates windows line endings but our plugin creates unix style ones.
-        lineending: { // Task
-            dist: { // Target
-                options: { // Target options
-                    eol: 'crlf',
-                    overwrite: true
-                },
-                files: { // Files to process
-                    '': ['test/expected/*']
-                }
-            }
         },
 
         ts: {
@@ -71,8 +48,8 @@ module.exports = function (grunt) {
                     }],
                     dest: 'tmp'
                 }
-            }
-            , custom: {
+            },
+            custom: {
                 options: {
                     type: 'CustomGenerator',
                     apis: [{
@@ -94,9 +71,8 @@ module.exports = function (grunt) {
 
     // Whenever the "test" task is run, first clean the "tmp" dir, then run this
     // plugin's task(s), then test the result.
-    grunt.registerTask('test', ['clean', 'lineending', 'OfficialTest', 'typescript']);
-    grunt.registerTask('generate', ['clean', 'lineending', 'OfficialTest']);
-    grunt.registerTask('build', ['ts']);
+    grunt.registerTask('test', [ 'build', 'OfficialTest']);
+    grunt.registerTask('build', ['clean','ts']);
 
     // By default, lint and run all tests.
     grunt.registerTask('default', ['build']);
