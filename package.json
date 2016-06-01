@@ -1,6 +1,6 @@
 {
   "name": "grunt-swagger-ts",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Generate client side code out of a swagger api documentation",
   "homepage": "https://github.com/3IE/grunt-ts-swagger",
   "repository": "https://github.com/3IE/grunt-ts-swagger.git",
