@@ -1,5 +1,5 @@
 {
-  "ambientDependencies": {
+  "globalDependencies": {
     "async": "registry:dt/async#1.4.2+20160316155526",
     "form-data": "registry:dt/form-data#0.0.0+20160316155526",
     "gruntjs": "registry:dt/gruntjs#0.4.0+20160316171810",

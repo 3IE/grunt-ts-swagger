@@ -1,6 +1,6 @@
 {
   "name": "grunt-swagger-ts",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Generate client side code out of a swagger api documentation",
   "homepage": "https://github.com/3IE/grunt-ts-swagger",
   "repository": "https://github.com/3IE/grunt-ts-swagger.git",
@@ -29,15 +29,15 @@
     "mustache": "~2.2.1",
     "q": "~1.4.1",
     "request": "^2.71.0",
-    "swagger-js-codegen": "~1.4.2",
+    "swagger-js-codegen": "^1.5.1",
     "sync-request": "^3.0.0",
     "typescript-collections": "^1.1.2",
-    "typescript-formatter": "~2.1.0",
+    "typescript-formatter": "^2.2.0",
     "typescript": "~1.8.2",
     "grunt": "~1.0.1",
     "jit-grunt": "~0.10.0",
     "grunt-ts": "~5.4.0",
-    "typings": "~0.8.1"
+    "typings": "^1.0.4"
   },
   "devDependencies": {
     "jshint": "~2.9.2",
