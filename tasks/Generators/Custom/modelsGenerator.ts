@@ -60,6 +60,10 @@ export class ModelsGenerator extends Base.BaseGenerator {
                         tmpProp.type = 'Array<' + this.typeMappings[schema.properties[property].items.type] + '>';
                     }
                 }
+                
+                if (schema.properties[property].type === undefined) {
+                    tmpProp.type = this.storeModelType.getValue(schema.properties[property].$ref).name;                    
+                }
             }
             props.push(tmpProp);
         }
